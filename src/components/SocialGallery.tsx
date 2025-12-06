@@ -7,10 +7,10 @@ import social3 from "@/assets/social-3.jpg";
 import social4 from "@/assets/social-4.jpg";
 
 const images = [
-  { src: social1, alt: "Elegant dinner party with Saratoga water" },
-  { src: social2, alt: "Jazz festival evening scene" },
-  { src: social3, alt: "Luxury spa setting with water bottle" },
-  { src: social4, alt: "Professional kitchen with premium water" },
+  { src: social1, alt: "Meta H2O at the beach during sunset" },
+  { src: social2, alt: "Meta H2O fitness lifestyle flat lay" },
+  { src: social3, alt: "Meta H2O on modern office desk" },
+  { src: social4, alt: "Meta H2O outdoor hiking adventure" },
 ];
 
 const SocialGallery = () => {
@@ -27,11 +27,11 @@ const SocialGallery = () => {
           className="text-center mb-12"
         >
           <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
-            Saratoga <em className="text-gold">Social</em>
+            Meta H2O <em className="text-gold">Lifestyle</em>
           </h2>
           <p className="font-sans text-muted-foreground text-sm max-w-lg mx-auto">
-            At Saratoga,® we showcase stories of timeless, curated experiences and 
-            celebrate extraordinary tastemakers in water, fine dining, and style.
+            At Meta H2O,® we celebrate hydration in every moment — from beach sunsets 
+            to mountain peaks, fitness goals to focused work days.
           </p>
         </motion.div>
 
