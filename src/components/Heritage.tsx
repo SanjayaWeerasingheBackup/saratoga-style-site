@@ -16,7 +16,7 @@ const Heritage = () => {
           className="mb-8"
         >
           <p className="text-gold tracking-wide-luxury text-xs uppercase mb-6 font-sans">
-            Since 1872
+            Premium Alkaline Spring Water
           </p>
         </motion.div>
 
@@ -35,9 +35,9 @@ const Heritage = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-sans text-muted-foreground text-base md:text-lg leading-relaxed max-w-2xl mx-auto"
         >
-          Born in the foothills of the Adirondacks, Saratoga® Spring Water has pursued 
-          the art of water for over 150 years. We believe in curated, meaningful choices 
-          regarding our water and how we show up on tables and in the world.
+          Meta H2O® Alkaline Spring Water delivers naturally occurring minerals and a 
+          refreshingly high pH. We believe in pure hydration with no compromises — no sugar, 
+          no calories, no caffeine. Just premium spring water that elevates every moment.
         </motion.p>
 
         <motion.div
