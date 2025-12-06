@@ -11,7 +11,7 @@ const Newsletter = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Welcome to Saratoga",
+      title: "Welcome to Meta H2O",
       description: "Thank you for subscribing to our newsletter.",
     });
     setEmail("");
@@ -30,7 +30,7 @@ const Newsletter = () => {
           transition={{ duration: 0.8 }}
           className="font-serif text-2xl md:text-3xl text-foreground mb-4"
         >
-          Discover The World of Saratoga
+          Discover The World of Meta H2O
         </motion.h2>
 
         <motion.p
@@ -39,7 +39,7 @@ const Newsletter = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-sans text-muted-foreground text-sm md:text-base mb-10"
         >
-          Exclusive content, promotions, offers, and more from Saratoga® Spring Water.
+          Exclusive content, promotions, offers, and more from Meta H2O® Alkaline Spring Water.
         </motion.p>
 
         <motion.form
