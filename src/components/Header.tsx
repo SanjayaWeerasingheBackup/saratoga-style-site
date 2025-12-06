@@ -26,8 +26,8 @@ const Header = () => {
 
         {/* Logo */}
         <a href="/" className="absolute left-1/2 -translate-x-1/2">
-          <h1 className="font-serif text-2xl md:text-3xl tracking-luxury text-foreground">
-            SARATOGA
+          <h1 className="font-sans text-2xl md:text-3xl font-bold tracking-wide text-foreground">
+            Meta<span className="text-gold">H2O</span>
           </h1>
         </a>
 

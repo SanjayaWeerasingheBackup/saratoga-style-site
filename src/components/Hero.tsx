@@ -23,7 +23,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-gold tracking-wide-luxury text-xs md:text-sm uppercase mb-4 font-sans"
           >
-            Discover Saratoga Spring Water
+            Discover Meta H2O Alkaline Spring Water
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -31,9 +31,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-foreground/90 font-sans text-sm md:text-base leading-relaxed max-w-md"
           >
-            Saratoga® Spring Water enriches life's grand and subtle moments with its smooth, 
-            refreshing taste and signature cobalt blue bottle. Available in still and sparkling, 
-            we believe distinction is in the details.
+            Meta H2O® Alkaline Spring Water enriches life's grand and subtle moments with its 
+            naturally high alkaline pH and refreshing taste. Premium spring water with no sugar, 
+            no calories, and no caffeine. Pure hydration, elevated.
           </motion.p>
         </div>
 
@@ -45,7 +45,7 @@ const Hero = () => {
           className="absolute bottom-20 right-6 md:right-12 text-right"
         >
           <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl text-foreground">
-            The <em className="text-gold">Art</em> of Water
+            The <em className="text-gold">Pure</em> Difference
           </h2>
         </motion.div>
       </div>

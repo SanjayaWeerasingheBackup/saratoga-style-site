@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <div className="text-center md:text-left">
-            <h2 className="font-serif text-xl tracking-luxury text-foreground mb-2">
-              SARATOGA
+            <h2 className="font-sans text-xl font-bold tracking-wide text-foreground mb-2">
+              Meta<span className="text-gold">H2O</span>
             </h2>
             <p className="font-sans text-xs text-muted-foreground tracking-wider">
-              The Art of Water Since 1872
+              Premium Alkaline Spring Water
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="font-sans text-xs text-muted-foreground">
-              © 2024 Saratoga Spring Water Co.
+              © 2024 Meta H2O Water Co.
             </p>
             <p className="font-sans text-xs text-muted-foreground mt-1">
               All rights reserved.
