@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+import logo from "@/assets/meta-h2o-logo.png";
 
 const Footer = () => {
   return (
@@ -6,10 +7,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
-          <div className="text-center md:text-left">
-            <h2 className="font-sans text-xl font-bold tracking-wide text-foreground mb-2">
-              Meta<span className="text-gold">H2O</span>
-            </h2>
+          <div className="text-center md:text-left flex flex-col items-center md:items-start">
+            <img src={logo} alt="Meta H2O Logo" className="h-12 w-auto mb-2" />
             <p className="font-sans text-xs text-muted-foreground tracking-wider">
               Premium Alkaline Spring Water
             </p>
