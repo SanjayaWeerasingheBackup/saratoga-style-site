@@ -61,7 +61,7 @@ const SocialGallery = () => {
           className="text-center mt-10"
         >
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/meta.h2o/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors duration-300 font-sans text-sm tracking-luxury uppercase"

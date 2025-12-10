@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/meta.h2o/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-gold transition-colors duration-300"

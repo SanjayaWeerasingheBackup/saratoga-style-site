@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/meta-h2o-logo.png";
 
 const Header = () => {
@@ -31,12 +32,12 @@ const Header = () => {
         </a>
 
         {/* CTA Button */}
-        <a
-          href="#products"
+        <Link
+          to="/buy"
           className="hidden md:block text-foreground tracking-luxury text-sm font-sans uppercase hover:text-gold transition-colors duration-300"
         >
           Buy Now
-        </a>
+        </Link>
       </nav>
 
       {/* Full-screen Menu Overlay */}
